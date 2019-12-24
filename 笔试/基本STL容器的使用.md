@@ -55,6 +55,13 @@ Not a tree
 输出样例3：
 1,3,2,6,4,5
 ```cpp
+/*
+STL set 动态维护有序序列
+lower_bound(x) 返回>=x的最小的数
+upper_bound(x) 返回>x的最小的数
+upper_bound(x) 返回的是一个iterator，可以通过--或者++选择前后的元素
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <map>
